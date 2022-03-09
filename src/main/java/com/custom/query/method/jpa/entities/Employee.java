@@ -1,4 +1,4 @@
-package com.standalone.jpa.entities;
+package com.custom.query.method.jpa.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

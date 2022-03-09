@@ -1,4 +1,4 @@
-package com.standalone.jpa;
+package com.custom.query.method.jpa;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
-import com.standalone.jpa.Reposetory.EmployeeReposetory;
-import com.standalone.jpa.entities.Employee;
+import com.custom.query.method.jpa.Reposetory.EmployeeReposetory;
+import com.custom.query.method.jpa.entities.Employee;
 
 @SpringBootApplication
 public class Application {

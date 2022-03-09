@@ -1,4 +1,4 @@
-package com.standalone.jpa.Reposetory;
+package com.custom.query.method.jpa.Reposetory;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.standalone.jpa.entities.Employee;
+import com.custom.query.method.jpa.entities.Employee;
 
 @Repository
 public interface EmployeeReposetory extends CrudRepository<Employee, Integer> {
